@@ -9,16 +9,22 @@ Simples API RestFul representando algumas ações bancárias como:
   Transferir
 
   Start do projeto
+
   https://start.spring.io/
 
   Dependências utilizadas:
+
   JPA: https://spring.io/guides/gs/accessing-data-jpa
+
   mysql: https://spring.io/guides/gs/accessing-data-mysql/
+
   WebTools: https://spring.io/blog/2015/06/17/devtools-in-spring-boot-1-3
+
   swagger-2: ##
 
 
-  ## Configurando a conexão
+## Configurando a conexão
+
   ```java
     DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
@@ -30,5 +36,6 @@ Simples API RestFul representando algumas ações bancárias como:
   ## Configurando base de dados
 
 
-Como usar:
+##Como usar:
+
   Basta `importar o projeto via MAVEN` em sua IDE preferêncial, e posteriormente executar a aplicação.
